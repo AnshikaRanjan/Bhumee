@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .images img {
+    float: right;
+    margin-top: 70px;
+    width: 500px;
+    height: 340px;
+    filter: brightness(30%);
+    position: relative; /* Positioning context */
+    margin-left: 80px;
+  }
+  
+  .images1 img {
+    position: absolute; /* Positioned within the container */
+    top: 59%; /* Move it halfway down */
+    left: 77%; /* Move it halfway to the right */
+    transform: translate(-50%, -50%); /* Center it within the container */
+    width: 380px;
+    height: 250px;
+    z-index: 2; /* Place it above the images image */
+  }
+
+  .portfolio p {
+    float: left;
+    text-align:left;
+    margin-top: 110px;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+
+  
